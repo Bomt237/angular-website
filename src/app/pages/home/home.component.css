@@ -1,0 +1,35 @@
+.banner
+{
+    background-image: url('../../../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+.content 
+{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+}
+
+.content h1 
+{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.content a
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
